@@ -1,0 +1,108 @@
+body{
+    background-color: #e2e0e2;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.contacto{
+    color: rgb(69, 72, 75);
+    background-color: #e2e0e2;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.acceso{
+    padding: 20px;
+    color: rgb(59, 63, 66);
+    background-color: #e2e0e2;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.ingreso{
+    margin: 20px;
+}
+
+.registro{
+    margin: 20px;
+}
+
+.precio{
+font-style: oblique;
+}
+
+.card{
+    padding: 20px;
+    border-radius: 6%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+}
+
+.card-title{
+    font-style: italic;
+}
+
+.offer-title{
+ margin: 20px;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.card:hover{
+    background-color: rgb(80, 80, 80);
+    transform: scale(1.15);
+    transition: all 0.5s ease-in-out;
+    color: aliceblue;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+}
+    
+
+    *@media (max-width: 576px){
+        max-width: 80%;
+    }
+    .card{
+        width: 100%;
+    }
+
+    footer {
+        background-color: gray;
+        grid-column: 1/4;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #c3c3c3;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+
+    .footer_iconos {
+        width: 50px;
+        height: auto;
+        color: #c3c3c3; }
+
+*@media (max-width: 768px){
+    .card { width: 25%; }
+}
